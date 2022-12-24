@@ -274,7 +274,7 @@ body {
 }
 #menu__toggle:checked ~ .menu__box {
     visibility: visible;
-    left: 0;
+    left: -50px;
 }
 
 .menu__btn > span,
