@@ -397,6 +397,11 @@ body {
     }       
 }
 
+@media (max-width: 759.98px) {
+    .body-main-block {
+        align-items: center;
+    }
+}
 /*---------------------------------------------------------*/
 
 .body-about {
@@ -572,6 +577,17 @@ body {
     .subscription__items {
      margin-bottom: 37px;
     }
+    .subscription__container {
+     align-items: center;
+    }
+}
+
+@media (max-width: 419.98px) {
+    .subscription__button {
+        width: 220px;
+        text-align: center;
+        padding: 24px 40px;
+    }
 }
 /*---------------------------------------------------------*/
 
@@ -721,6 +737,13 @@ body {
     }
 }
 
+@media (max-width: 759.98px) {
+    .content-benefit-item-1,
+    .content-benefits-item-2 {
+        align-items: center;
+    } 
+}
+
 @media (max-width: 419.98px) {
     .content.content-benefits-item-2__downloads-links {
         display: flex;
@@ -849,6 +872,9 @@ body {
 @media (max-width: 759.98px) {
     .bestsellers__button {
         width: 330px;
+    }
+    .bestsellers__title {
+        font-size: 42px;
     }
 }
 
@@ -1155,7 +1181,17 @@ input:invalid:not(:placeholder-shown) {
         font-size: 22px;
     }
     .form-signInGoogle__button {
-          padding: 3px 3px;
+        display: flex;
+        font-size: 20px;
+        line-height: 25px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .signIn__header h2 {
+        font-size: 34px;
+    }
+    .signIn__header h3 {
+        font-size: 23px;
     }
 }
 /*---------------------------------------------------------*/
